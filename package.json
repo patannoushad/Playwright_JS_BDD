@@ -1,0 +1,21 @@
+{
+  "name": "udemy_ko_playwright_js_bdd_cucumber",
+  "version": "1.0.0",
+  "description": "Playwright with Cucumber BDD automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx @cucumber/cucumber -p default",
+    "report": "node reporter.js",
+    "report:html": "npm test && npm run report",
+    "open:report": "start reports/cucumber_report.html"
+  },
+  "author": "Rajat Verma",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.1.2",
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0",
+    "playwright": "^1.21.1",
+    "prettier": "^2.6.2"
+  }
+}
