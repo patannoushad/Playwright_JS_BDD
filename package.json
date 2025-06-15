@@ -1,5 +1,5 @@
 {
-  "name": "udemy_ko_playwright_js_bdd_cucumber",
+  "name": "uplaywright_js_bdd_cucumber",
   "version": "1.0.0",
   "description": "Playwright with Cucumber BDD automation",
   "main": "index.js",

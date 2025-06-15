@@ -3,6 +3,8 @@
 node_modules
 playwright-report
 
+# IntelliJ IDEA
+.idea/
 node_modules/
 reports/
 *.log
