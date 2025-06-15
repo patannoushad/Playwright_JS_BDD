@@ -2,3 +2,9 @@
 .DS_Store
 node_modules
 playwright-report
+
+node_modules/
+reports/
+*.log
+.env
+
